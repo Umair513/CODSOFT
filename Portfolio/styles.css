@@ -148,12 +148,54 @@
   font-family: "Fira Sans", sans-serif;
 }
 
-.blogItem p {
+p {
   font-family: "Source Code Pro", monospace;
 }
 
-.blogContainer h1 {
+h1 {
   font-family: "Fira Sans", sans-serif;
   margin: 23px;
 }
 
+.intro h2 {
+  font-family: "Fira Sans", sans-serif;
+  margin: 12px;
+}
+
+.intro p {
+  font-family: "Source Code Pro", monospace;
+  margin: 12px;
+}
+
+.skillContainer {
+  padding: 12px;
+}
+
+.skill {
+  width: 265px;
+  height: 10px;
+  background-color: red;
+  border: 2px solid black;
+}
+
+.skillItem {
+  display: flex;
+  align-items: center;
+  font-family: "Source Code Pro", monospace;
+  font-weight: bolder;
+}
+
+.hundred {
+  width: 265px;
+  background-color: blueviolet;
+}
+
+.fifty {
+  width: 125px;
+  background-color: aqua;
+}
+
+.t5 {
+  width: 75px;
+  background-color: yellow;
+}
