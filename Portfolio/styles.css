@@ -8,7 +8,7 @@
 
 .sidebar {
   background-color: rgb(223, 218, 218);
-  width: 400px;
+  /* width: 400px; */
   font-family: "Fira Sans", sans-serif;
   height: 100vh;
 }
@@ -40,11 +40,12 @@
 .infoContainer {
   /* background-color: burlywood; */
   height: 58vh;
-  width: 80vw;
+  width: 78vw;
   margin: 110px auto;
   display: flex;
   justify-content: space-around;
   padding: 45px;
+  /* flex-wrap: wrap; */
 }
 
 .devInfo {
@@ -198,4 +199,31 @@ h1 {
 .t5 {
   width: 75px;
   background-color: yellow;
+}
+
+.sidebargo {
+    transform: translate(-450px, 0);
+    position: absolute;
+  } */
+
+
+.hamburger {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  left: 10px;
+}
+
+.cross {
+  margin-left: 95px;
+}
+
+@media (max-width: 570px) {
+  /* *{
+    background-color: red;
+  } */
+  /* .sidebar {
+    transform: translate(-450px, 0);
+    position: absolute;
+  } */
 }
