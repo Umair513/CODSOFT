@@ -28,5 +28,45 @@
 }
 
 .font-bold {
-    font-weight: bold;
+    font-weight: bolder;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.my-1 {
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.px-2 {
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.btn {
+    padding: 7px 12px;
+    border: 2px solid white;
+    color: white;
+    background-color: rgb(76,116,204);
+    border-radius: 6px;   
+    cursor: pointer;
+}
+
+.img {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 600px;
+    height: 550px;
+}
+
+.text-center {
+    text-align: center;
 }
