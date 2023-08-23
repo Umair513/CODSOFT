@@ -201,10 +201,10 @@ h1 {
   background-color: yellow;
 }
 
-.sidebargo {
+/* .sidebargo {
     transform: translate(-450px, 0);
     position: absolute;
-  } */
+  } */ */
 
 
 .hamburger {
@@ -214,11 +214,11 @@ h1 {
   left: 10px;
 }
 
-.cross {
+/* .cross {
   margin-left: 95px;
-}
+} */
 
-@media (max-width: 570px) {
+/* @media (max-width: 570px) {
   /* *{
     background-color: red;
   } */
@@ -226,4 +226,4 @@ h1 {
     transform: translate(-450px, 0);
     position: absolute;
   } */
-}
+} */
